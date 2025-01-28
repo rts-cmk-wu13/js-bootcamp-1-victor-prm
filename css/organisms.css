@@ -20,6 +20,7 @@ body {
 
 .siteFooter {
 	padding: 1vh;
+	height: fit-content;
 	color: var(--color-primaryBackground);
 	background-color: var(--color-primaryForeground);
 	display: grid;
