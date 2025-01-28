@@ -1,5 +1,8 @@
 let randomIndex = Math.floor(Math.random()*quotes.length);
-let blockQuoteElement = document.querySelector('#qoute-of-the-day');
+let blockQuoteElement = document.querySelector('#quote-of-the-day');
+let authorElement = document.querySelector('#quote-of-the-day-author');
+console.log(authorElement)
 
 blockQuoteElement.innerHTML = quotes[randomIndex].quote;
-console.log(randomIndex, quotes[randomIndex])
+authorElement.innerHTML = quotes[randomIndex].author;
+//console.log(randomIndex, quotes[randomIndex])
